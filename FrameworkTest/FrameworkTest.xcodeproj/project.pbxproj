@@ -14,8 +14,8 @@
 		E9F1885D1A9F2B3900F449BE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9F1885C1A9F2B3900F449BE /* Images.xcassets */; };
 		E9F188601A9F2B3900F449BE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9F1885E1A9F2B3900F449BE /* LaunchScreen.xib */; };
 		E9F1886C1A9F2B3A00F449BE /* FrameworkTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F1886B1A9F2B3A00F449BE /* FrameworkTestTests.m */; };
-		E9F188A81A9F2B9400F449BE /* FrameworkA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9F188A11A9F2B4F00F449BE /* FrameworkA.framework */; };
-		E9F188A91A9F2B9400F449BE /* FrameworkA.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E9F188A11A9F2B4F00F449BE /* FrameworkA.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E9F189621A9F502100F449BE /* FrameworkA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9F189561A9F500C00F449BE /* FrameworkA.framework */; };
+		E9F189631A9F502100F449BE /* FrameworkA.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E9F189561A9F500C00F449BE /* FrameworkA.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,25 +26,25 @@
 			remoteGlobalIDString = E9F1884B1A9F2B3900F449BE;
 			remoteInfo = FrameworkTest;
 		};
-		E9F188A01A9F2B4F00F449BE /* PBXContainerItemProxy */ = {
+		E9F189551A9F500C00F449BE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E9F1889B1A9F2B4E00F449BE /* FrameworkA.xcodeproj */;
+			containerPortal = E9F189501A9F500C00F449BE /* FrameworkA.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = E9F1887F1A9F2B4E00F449BE;
+			remoteGlobalIDString = E9F189061A9F4F7900F449BE;
 			remoteInfo = FrameworkA;
 		};
-		E9F188A21A9F2B4F00F449BE /* PBXContainerItemProxy */ = {
+		E9F189571A9F500C00F449BE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E9F1889B1A9F2B4E00F449BE /* FrameworkA.xcodeproj */;
+			containerPortal = E9F189501A9F500C00F449BE /* FrameworkA.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = E9F1888A1A9F2B4E00F449BE;
+			remoteGlobalIDString = E9F189111A9F4F7900F449BE;
 			remoteInfo = FrameworkATests;
 		};
-		E9F188AA1A9F2B9400F449BE /* PBXContainerItemProxy */ = {
+		E9F189641A9F502100F449BE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E9F1889B1A9F2B4E00F449BE /* FrameworkA.xcodeproj */;
+			containerPortal = E9F189501A9F500C00F449BE /* FrameworkA.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = E9F1887E1A9F2B4E00F449BE;
+			remoteGlobalIDString = E9F189051A9F4F7900F449BE;
 			remoteInfo = FrameworkA;
 		};
 /* End PBXContainerItemProxy section */
@@ -56,7 +56,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				E9F188A91A9F2B9400F449BE /* FrameworkA.framework in Embed Frameworks */,
+				E9F189631A9F502100F449BE /* FrameworkA.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -77,7 +77,7 @@
 		E9F188651A9F2B3A00F449BE /* FrameworkTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrameworkTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9F1886A1A9F2B3A00F449BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9F1886B1A9F2B3A00F449BE /* FrameworkTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FrameworkTestTests.m; sourceTree = "<group>"; };
-		E9F1889B1A9F2B4E00F449BE /* FrameworkA.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FrameworkA.xcodeproj; path = FrameworkA/FrameworkA.xcodeproj; sourceTree = "<group>"; };
+		E9F189501A9F500C00F449BE /* FrameworkA.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FrameworkA.xcodeproj; path = ../FrameworkA/FrameworkA.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9F188A81A9F2B9400F449BE /* FrameworkA.framework in Frameworks */,
+				E9F189621A9F502100F449BE /* FrameworkA.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +102,7 @@
 		E9F188431A9F2B3900F449BE = {
 			isa = PBXGroup;
 			children = (
+				E9F189501A9F500C00F449BE /* FrameworkA.xcodeproj */,
 				E9F1884E1A9F2B3900F449BE /* FrameworkTest */,
 				E9F188681A9F2B3A00F449BE /* FrameworkTestTests */,
 				E9F1884D1A9F2B3900F449BE /* Products */,
@@ -159,21 +160,20 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		E9F1889C1A9F2B4E00F449BE /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E9F188A11A9F2B4F00F449BE /* FrameworkA.framework */,
-				E9F188A31A9F2B4F00F449BE /* FrameworkATests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		E9F188E41A9F2CD000F449BE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E9F1889B1A9F2B4E00F449BE /* FrameworkA.xcodeproj */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9F189511A9F500C00F449BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9F189561A9F500C00F449BE /* FrameworkA.framework */,
+				E9F189581A9F500C00F449BE /* FrameworkATests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,7 +191,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				E9F188AB1A9F2B9400F449BE /* PBXTargetDependency */,
+				E9F189651A9F502100F449BE /* PBXTargetDependency */,
 			);
 			name = FrameworkTest;
 			productName = FrameworkTest;
@@ -247,8 +247,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = E9F1889C1A9F2B4E00F449BE /* Products */;
-					ProjectRef = E9F1889B1A9F2B4E00F449BE /* FrameworkA.xcodeproj */;
+					ProductGroup = E9F189511A9F500C00F449BE /* Products */;
+					ProjectRef = E9F189501A9F500C00F449BE /* FrameworkA.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -260,18 +260,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		E9F188A11A9F2B4F00F449BE /* FrameworkA.framework */ = {
+		E9F189561A9F500C00F449BE /* FrameworkA.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = FrameworkA.framework;
-			remoteRef = E9F188A01A9F2B4F00F449BE /* PBXContainerItemProxy */;
+			remoteRef = E9F189551A9F500C00F449BE /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		E9F188A31A9F2B4F00F449BE /* FrameworkATests.xctest */ = {
+		E9F189581A9F500C00F449BE /* FrameworkATests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = FrameworkATests.xctest;
-			remoteRef = E9F188A21A9F2B4F00F449BE /* PBXContainerItemProxy */;
+			remoteRef = E9F189571A9F500C00F449BE /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -323,10 +323,10 @@
 			target = E9F1884B1A9F2B3900F449BE /* FrameworkTest */;
 			targetProxy = E9F188661A9F2B3A00F449BE /* PBXContainerItemProxy */;
 		};
-		E9F188AB1A9F2B9400F449BE /* PBXTargetDependency */ = {
+		E9F189651A9F502100F449BE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FrameworkA;
-			targetProxy = E9F188AA1A9F2B9400F449BE /* PBXContainerItemProxy */;
+			targetProxy = E9F189641A9F502100F449BE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -430,8 +430,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/FrameworkTest-dcjtcifoftdayndcimkiavqfycoc/Build/Products/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = FrameworkTest/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -440,8 +445,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/FrameworkTest-dcjtcifoftdayndcimkiavqfycoc/Build/Products/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = FrameworkTest/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -499,6 +509,7 @@
 				E9F188711A9F2B3A00F449BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E9F188721A9F2B3A00F449BE /* Build configuration list for PBXNativeTarget "FrameworkTestTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +518,7 @@
 				E9F188741A9F2B3A00F449BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

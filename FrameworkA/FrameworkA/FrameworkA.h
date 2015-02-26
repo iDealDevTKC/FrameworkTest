@@ -7,8 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-
-
 #import <FrameworkA/A.h>
 
 //! Project version number for FrameworkA.
